@@ -1,3 +1,5 @@
+import javax.sound.midi.SysexMessage;
+
 public class format {
     public static void main(String[] args) {
         /*
@@ -32,7 +34,7 @@ public class format {
         System.out.println(); 
 
         System.out.println(); 
-        
+
         System.out.printf("A: %5d" , 3 ); 
         System.out.println();
         System.out.printf("A: %5d" , 12);
@@ -44,8 +46,14 @@ public class format {
         System.out.println(); 
         System.out.printf("A: %-5d B", 123);
 
+        System.out.println();
+        String src1 = String.format( "Ahihi: %s" , "do ngoc" ) ; 
+        String src2 = String.format( "So tu nhien: %d", 45) ; 
+        String src3 = String.format( "So thuc: %f" , 11.234  ) ; 
+        System.out.println( src1 );
+        System.out.println( src2 );      
+        System.out.println( src3 ); 
 
-        
 
         
     }
