@@ -10,7 +10,7 @@ public class join {
         System.out.println( a );
         System.out.println( b );
 
-        /* 
+        /*   
             Method join() tra ve 1 chuoi dc noi voi nhay boi dau --- Phan tach 
         */ 
     } 
