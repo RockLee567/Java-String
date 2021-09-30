@@ -13,13 +13,17 @@ public class indexOf {
         System.out.println( wCharOne );   
         
 
-        int a = s1.indexOf( 8 ) ; 
+        int a = s1.indexOf( 3, 2) ; 
         System.out.println( a ) ;                      // => -1 
 
         /*
             int indexOf( String sub  )     
             int indexOf( String sub , int fromIndex ) 
-            int indexOf( char star )      
+            
+            int indexOf( char star ) 
+            
+            int indexOf( int ch ) 
+            int indexOf( int ch , int fromIndex ) 
         */ 
 
     }
