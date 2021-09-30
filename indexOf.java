@@ -19,11 +19,11 @@ public class indexOf {
         /*
             int indexOf( String sub  )     
             int indexOf( String sub , int fromIndex ) 
-            
+
             int indexOf( char star ) 
             
             int indexOf( int ch ) 
-            int indexOf( int ch , int fromIndex ) 
+            int indexOf( int ch , int fromIndex )  
         */ 
 
     }
